@@ -45,7 +45,7 @@ html {
 }
 
 body {
-    color: #666666;
+    color: white;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     line-height: 1.80857;
@@ -1047,4 +1047,13 @@ button {
 .margin_top_90 {
     margin-top: 90px;
 }
-
+.content-banner{color: #ffffff;
+    background-image: url(../images/banner-bg-6.jpg);
+    min-height:200px;
+    height:76%;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 125px;
+    }
+        

@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Casinal</title>
+      <title>Index</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -26,6 +26,16 @@
       <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
       <!-- Tweaks for older IEs-->
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <style>
+         #map {
+           height: 100%;
+         }
+         html, body {
+           height: 100%;
+           margin: 0;
+           padding: 0;
+         }
+       </style>
       <!-- fonts -->
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700&display=swap" rel="stylesheet">
       <!-- owl stylesheets --> 
@@ -33,8 +43,8 @@
       <link rel="stylesheet" href="css/owl.theme.default.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
    </head>
-   <body>
-      <!--header section start -->
+      <body>
+         <!--header section start -->
       <div class="header_section">
          <div class="header_bg">
             <div class="container">
@@ -46,19 +56,10 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                      <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                           <a class="nav-link" href="index.html">Home</a>
+                           <a class="nav-link" id="navitem" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="Services.html">Charging Service</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="blog.html">Booking</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="contact.html">Contact Us</a>
+                           <a class="nav-link" id="navitem" href="about.html">About</a>
                         </li>
                      </ul>
                      <div class="call_section">
@@ -90,7 +91,6 @@
                                  <div class="quote_bt"><a href="blog.html">Book Charging</a></div>
                               </div>
                            </div>
-
                         </div>
                      </div>
                   </div>
@@ -101,197 +101,65 @@
       </div>
       <!--banner section end -->
       </div>
-      <!--header section end -->
-      <!-- services section start -->
-      <div class="services_section layout_padding">
-         <div class="container">
-            <h1 class="services_taital"><span style="color: #fcce2d">Our</span> Courses</h1>
-            <div class="services_section_2">
-               <div class="row">
-                  <div class="col-md-6">
-                     <div class="image_main">
-                        <img src="images/img-2.png" class="image_8" style="width:100%">
-                        <div class="text_main">
-                           <div class="seemore_text">Art And Design</div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-6">
-                     <div class="image_main">
-                        <img src="images/img-3.png" class="image_8" style="width:100%">
-                        <div class="text_main">
-                           <div class="seemore_text">Science</div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-md-6">
-                     <div class="image_main">
-                        <img src="images/img-4.png" class="image_8" style="width:100%">
-                        <div class="text_main">
-                           <div class="seemore_text">Business Stady</div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-6">
-                     <div class="image_main">
-                        <img src="images/img-5.png" class="image_8" style="width:100%">
-                        <div class="text_main">
-                           <div class="seemore_text">English Speaking</div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>            
+      <div>
+         <p class="stations" style="font-size: 400%; text-align: center; color:black ">CHARGING STATIONS<br><br></p>
       </div>
-      <!-- services section end -->
-      <!-- about section start -->
-      <div class="news_section layout_padding">
-         <div class="container">
-            <h1 class="news_taital">Our About</h1>
-            <p class="news_text">Do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-            <div class="news_section_2">
-               <div class="row">
-                  <div class="col-md-6">
-                     <div class="news_taital_box">
-                        <p class="date_text">01 Jan 2020</p>
-                        <h4 class="make_text">Make it Simple</h4>
-                        <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-                        <p class="post_text">Post By : Casinal</p>
-                     </div>
-                  </div>
-                  <div class="col-md-6">
-                     <img src="images/img-6.png" class="image_6" style="width:100%">
-                     <h6 class="plus_text">+</h6>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- about section end -->
-      <!-- blog section start -->
-      <div class="blog_section layout_padding">
-         <div class="container">
-            <h1 class="news_taital">Our Bolg</h1>
-            <p class="news_text">do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-            <div class="blog_section_2">
-               <div class="row">
-                  <div class="col-md-6">
-                     <img src="images/img-7.png" class="image_7" style="width:100%">
-                  </div>
-                  <div class="col-md-6">
-                     <h4 class="classes_text">Best Classes and study</h4>
-                     <p class="ipsum_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
-                  </div>
-               </div>
-            </div>
-            <div class="read_bt"><a href="#">Read More</a></div>
-         </div>
-      </div>
-      <!-- blog section end -->
-      <!-- client section start -->
-      <div class="client_section layout_padding">
-         <div id="main_slider" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-               <div class="carousel-item active">
-                  <div class="container">
-                     <h1 class="client_taital">Testimonial</h1>
-                     <div class="client_section_2">
-                        <div class="client_left">
-                           <div><img src="images/client-img.png" class="client_img"></div>
-                        </div>
-                        <div class="client_right">
-                           <h3 class="client_name">Jony Deno</h3>
-                           <p class="client_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <h1 class="client_taital">Testimonial</h1>
-                     <div class="client_section_2">
-                        <div class="client_left">
-                           <div><img src="images/client-img.png" class="client_img"></div>
-                        </div>
-                        <div class="client_right">
-                           <h3 class="client_name">Jony Deno</h3>
-                           <p class="client_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <h1 class="client_taital">Testimonial</h1>
-                     <div class="client_section_2">
-                        <div class="client_left">
-                           <div><img src="images/client-img.png" class="client_img"></div>
-                        </div>
-                        <div class="client_right">
-                           <h3 class="client_name">Jony Deno</h3>
-                           <p class="client_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
-             <i class="fa fa-angle-left"></i>
-            </a>
-            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
-             <i class="fa fa-angle-right" style="font-size:24px"></i>
-            </a>
-         </div>
-      </div>
-      <!-- client section end -->
-      <!-- newsletter section start -->
-      <div class="newsletter_section layout_padding">
-         <div class="container">
-            <div class="newsletter_main">
-               <h1 class="newsletter_taital">Get<br> Your free consuting </h1>
-               <div class="get_quote_bt"><a href="#">Get A Quote</a></div>
-            </div>
-            <p class="dolor_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
-         </div>
-      </div>
-      <!-- newsletter section end -->
+      
+      <p style="font-size: 200%;color:black"><br>1. Punjab Engineering College, Sector-12 :<br></p>
+      <p style="color: red; text-align: center; font-size: 150%;">Status: Unavailable<br></p>
+      <p style="text-align:center">Available after:<br></p>
 
-      <!-- contact section start -->
-      <div class="contact_section layout_padding">
-         <div class="container-fluid">
-            <div class="row">
-               <div class="col-md-6 padding_left0">
-                  <div class="mail_section">
-                     <div class="contact_img">
-                        <h1 class="contact_taital">Best Educations In World Here</h1>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-6">
-                  <div class="map_main"><img src="images/map-img.png"></div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- contact section end -->
+      <!--countdown timer start -->
+      <p id="demo" style="text-align: center; font-size:200%; color:blue"></p>
+      <script>
+         // Set the date we're counting down to
+         var countDownDate = new Date("Dec 19, 2022 21:00:00").getTime();
+         
+         // Update the count down every 1 second
+         var x = setInterval(function() {
+         
+           // Get today's date and time
+           var now = new Date().getTime();
+         
+           // Find the distance between now and the count down date
+           var distance = countDownDate - now;
+         
+           // Time calculations for days, hours, minutes and seconds
+           var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+           var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+           var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+           var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+         
+           // Display the result in the element with id="demo"
+           document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+           + minutes + "m " + seconds + "s ";
+         
+           // If the count down is finished, write some text
+           if (distance < 0) {
+             clearInterval(x);
+             document.getElementById("demo").innerHTML = "EXPIRED";
+           }
+         }, 1000);
+         </script>
+      <!--countdown timer end-->
+
+      <iframe src="https://maps.google.com/maps?q=Punjab%20Engineering%20College&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" width=100% height=90% allowfullscreen></iframe>
+     
       <!-- footer section start -->
-      <div class="footer_section layout_padding">
+      <div class="footer_section layout_padding margin_top_90">
          <div class="container">
             <div class="subscribe_bt"><a href="#">Subscribe</a></div>
             <input type="text" class="email_text" placeholder="Enter Your Email" name="Enter Your Email">
             <div class="footer_section_2">
                <div class="row">
-                  <div class="col-lg-3 margin_top">
-                     <div class="call_text"><a href="#"><img src="images/call-icon1.png"><span class="padding_left_15">Call Now +01 9876543210</span></a></div>
-                     <div class="call_text"><a href="#"><img src="images/mail-icon1.png"><span class="padding_left_15">demo@gmail.com</span></a></div>
+                  <div class="col-lg-3 col-md-6 margin_top">
+                     <div class="call_text"><a href="#"><img src="images/call-icon1.png"><span class="padding_left_15">Call Now +91 98151xxxxx</span></a></div>
+                     <div class="call_text"><a href="#"><img src="images/mail-icon1.png"><span class="padding_left_15">charging@gmail.com</span></a></div>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-lg-3 col-md-6">
                      <div class="information_main">
                         <h4 class="information_text">Information</h4>
-                        <p class="many_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+                        <p class="many_text">Smart charging provides renewable charging solutions in chandigarh.</p>
                      </div>
                   </div>
                   <div class="col-lg-3 col-md-6">
@@ -308,10 +176,8 @@
                         </div>
                      </div>
                   </div>
-                  <div class="col-lg-3">
-                     <div class="information_main">
-                        <div class="footer_logo"><a href="index.html"><img src="images/footer-logo.png"></a></div>
-                     </div>
+                  <div class="col-lg-3 col-md-6">
+                     <div class="information_main"></div>
                   </div>
                </div>
             </div>
@@ -319,11 +185,6 @@
       </div>
       <!-- footer section end -->
       <!-- copyright section start -->
-      <div class="copyright_section">
-         <div class="container">
-            <p class="copyright_text">© 2020 All Rights Reserved. <a href="https://html.design">Free html  Templates</a></p>
-         </div>
-      </div>
       <!-- copyright section end -->
       <!-- Javascript files-->
       <script src="js/jquery.min.js"></script>
