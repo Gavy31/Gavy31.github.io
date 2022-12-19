@@ -236,7 +236,7 @@ button {
     width: 100%;
     float: left;
     background-image: url(../images/banner-bg-4.jpg);
-    height: 800px;
+    height: 700px;
     background-size: 100%;
     background-repeat: no-repeat;
     padding-top: 0px;
@@ -563,7 +563,22 @@ button {
     color: #0e0e0e;
     font-family: 'Open Sans', sans-serif;
 }
-
+.charging_heading{
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+    margin: 0px;
+    color: #0e0e0e;
+    font-family: 'Open Sans', sans-serif;
+}
+.charging_text{
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    margin: 0px;
+    color: #0e0e0e;
+    font-family: 'Open Sans', sans-serif;
+}
 .news_section_2{
     width: 100%;
     float: left;
